@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+body {
+	height: 1500px;
+	background: url(../img/backg.jpg);
+	/*background-size: 100%;*/
+	background-repeat: no-repeat-y;
+	background-attachment: fixed;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+/* Quadros */
+#id1 {
+	width: 80%;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/home/janela00.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	position: relative;
+	/*border: 2px solid #FF0;*/
+}
+#id2 {
+	width: 80%;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/abstract/janela01_4.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	position: relative;
+}
+#id3 {
+	width: 80%;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/port/janela02_2.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	position: relative;
+}
+#id4 {
+	width: 80%;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/contact/janela03_1.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	position: relative;
+}
+
+/* Tipogrfia */
+h1 {
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	padding-left: 50px;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: #000;
+	text-shadow: 1px 1px #000;
+}
